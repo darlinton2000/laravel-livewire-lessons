@@ -1,5 +1,6 @@
 <div>
-    <h1>Contador: {{ $number }}</h1>
-    <button wire:click="increment($event.target.innerText)">1</button>
-    <button wire:click="increment($event.target.innerText)">2</button>
+    <h1>Contador de Estrelas (0-6): {{ $number }}</h1>
+
+    <button wire:click="increment">+</button>
+    <button wire:click="decrement">-</button>
 </div>
