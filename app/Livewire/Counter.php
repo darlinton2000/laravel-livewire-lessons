@@ -6,24 +6,10 @@ use Livewire\Component;
 
 class Counter extends Component
 {
-    public $number = 0;
+    public $number = true;
+
     public function render()
     {
         return view('livewire.counter');
-    }
-
-    public function increment()
-    {
-        if ($this->number < 5) {
-            $this->number++;
-        }
-    }
-
-    public function decrement()
-    {
-        if ($this->number > 0) {
-            $this->number--;
-
-        }
     }
 }

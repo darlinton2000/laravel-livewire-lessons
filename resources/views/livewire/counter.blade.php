@@ -1,6 +1,5 @@
 <div>
-    <h1>Contador de Estrelas (0-6): {{ $number }}</h1>
+    <h1>Contador: {{ $number }}</h1>
 
-    <button wire:click="increment">+</button>
-    <button wire:click="decrement">-</button>
+    <button wire:click="$toggle('number')">Toggle</button>
 </div>
