@@ -9,7 +9,7 @@
     @livewireStyles
 </head>
 <body>
-    <livewire:counter/>
+    <livewire:user user="Darlinton" />
 
     @livewireScripts
 </body>
