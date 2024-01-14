@@ -1,4 +1,4 @@
-<div>
-    <h1> Hello World! </h1>
-    <h2> Nome: {{ $name }}</h2>
+<div style="border: 1px solid red; padding: 32px">
+    <h2> Hello, {{ $name }}</h2>
+    <input type="text" wire:model="name" />
 </div>
